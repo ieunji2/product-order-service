@@ -11,13 +11,13 @@ import javax.persistence.*;
 @Table(name = "products")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public
-class Product {
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private int price;
+    @Enumerated(EnumType.STRING)
     private DiscountPolicy discountPolicy;
 
     public Product(final String name, final int price, final DiscountPolicy discountPolicy) {
