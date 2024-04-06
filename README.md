@@ -1,3 +1,7 @@
+[![Java CI with Gradle](https://github.com/ieunji2/product-order-service/actions/workflows/gradle.yml/badge.svg?branch=feature%2Fcode-coverage)](https://github.com/ieunji2/product-order-service/actions/workflows/gradle.yml)
+[![codecov](https://codecov.io/gh/ieunji2/product-order-service/graph/badge.svg?token=U38OWZYPD0)](https://codecov.io/gh/ieunji2/product-order-service)
+![Codecov (with branch)](https://img.shields.io/codecov/c/github/ieunji2/product-order-service/code-coverage)
+
 인프런 강의(무료)
 # 실전! 스프링부트 상품-주문 API 개발로 알아보는 TDD / 이중석
 
